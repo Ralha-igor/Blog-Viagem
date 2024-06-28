@@ -37,13 +37,18 @@ nav ul li a:hover {
 h2{
     color: #574CBA;
 }
+h3{
+    color:#FADC28;
+}
 
 /*layout utilizando CSS grid*/
 
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px
+    grid-gap: 20px;
+    border-collapse: collapse;
+    
 }
 
 .item{
